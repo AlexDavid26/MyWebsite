@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: lightgrey;
+}
+
+.topNavigationBar {
+    width: auto;
+    height: 60;
+    overflow: hidden;
+    background-color:#333333;
+}
+
+.topNavigationBar button {
+    border: 0px;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: #333333;
+}
+
+.topNavigationBar button.active {
+    background-color: #378805;
+}
+
+.topNavigationBar button.animated {
+    position: relative;
+}
+  
+.topNavigationBar button.animated::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: #2d90be;
+    transition: transform 300ms ease-in-out;
+    transform: scaleX(0);
+}
+
+.topNavigationBar button.animated:hover::before,
+.topNavigationBar button.animated:focus::before {
+    transform: scaleX(1);
+}
