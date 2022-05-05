@@ -1,12 +1,12 @@
 body {
     margin: 0;
     font-family: Arial;
-    background-color: lightgrey;
+    background-color: #143558;
 }
 
 .topNavigationBar {
     width: auto;
-    height: 60;
+    height: 70;
     overflow: hidden;
     background-color:#333333;
 }
@@ -16,9 +16,9 @@ body {
     float: left;
     color: white;
     text-align: center;
-    padding: 20px 20px;
+    padding: 22px 20px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
     background-color: #333333;
 }
 
@@ -45,4 +45,20 @@ body {
 .topNavigationBar button.animated:hover::before,
 .topNavigationBar button.animated:focus::before {
     transform: scaleX(1);
+}
+
+.fa {
+    padding: 12px;
+    padding-right: 20px;
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    padding: 5px;
+    color: white;
 }
