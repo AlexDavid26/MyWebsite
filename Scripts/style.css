@@ -1,63 +1,87 @@
-/*body {
-    margin: 0;
-    font-family: Arial;
-    background-color: #24252a;
-}
-
-.topNavigationBar {
-    width: auto;
-    height: 65;
-    overflow: hidden;
-    background-color:#24252a;
-}
-
-.topNavigationBar button {
-    border: 0px;
-    float: left;
-    color: white;
-    text-align: center;
-    padding: 19px 25px;
-    text-decoration: none;
+.menu {
+    padding-left: 30;
+    padding-right: 3vh;
     font-size: 20px;
-    background-color: #24252a;
 }
 
-.topNavigationBar button.active {
-    background-color: #0169fe;
-    left: 20%;
+.logo {
+    font-size: 24px;
+    padding-left: 15px;
 }
 
-.topNavigationBar button.animated {
+header {
     position: relative;
+    background-color: black;
+    height: 60vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
 }
   
-.topNavigationBar button.animated::before {
-    content: '';
+header video {
     position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 4;
-    height: 2px;
-    background-color: #2d90be;
-    transition: transform 300ms ease-in-out;
-    transform: scaleX(0);
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+  
+header .container {
+    position: relative;
+    z-index: 2;
 }
 
-.topNavigationBar button.animated:hover::before,
-.topNavigationBar button.animated:focus::before {
-    transform: scaleX(1);
-}
-
-.fa {
-    padding: 10px;
-    padding-right: 20px;
-    float: right;
+.text-paragraph {
+    font-size: 24px;
+    /* width:75vh;  */
     text-align: center;
-    text-decoration: none;
-    color: white;
-}*/
+}
 
-.menu
-{
-    padding-left: 40;
+.position {
+    margin-top: 30px;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+}
+
+.button {
+    border: none;
+    background-color: transparent;
+    display: inline-block;
+}
+
+.heart-text {
+    margin-left: 5px;
+    margin-top: 12px;
+    font-size: 20;
+}
+
+.nav-item {
+    color:white;
+    /* font-weight: bold; */
+}
+
+.text-paragraph2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-align: justify;
 }
