@@ -82,6 +82,19 @@ header .container {
 
 .text-paragraph2 {
     font-size: 24px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.langauge-title {
+    font-size: 30px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.text-paragraph3 {
+    font-size: 20px;
+    margin: 35px;
+    margin-top: 0;
     text-align: justify;
 }

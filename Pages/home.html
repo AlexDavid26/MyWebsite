@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Home</title>
+    <title>Coding Studios</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/Scripts/style.css">
@@ -14,7 +14,7 @@
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark font">
         <div class="container">
             <a href="home.html" class="navbar-brand">
-                <img class="d-inline-block align-middle mr-2" src="/Images/logo.png" width="40" height="40">
+                <img class="d-inline-block align-middle mr-2" src="/Images/Logos/codingStudios.png" width="40" height="40">
                 <span class="font-bold logo"><strong>Coding Studios</strong></span>
             </a>
             <button class="navbar-toggler float-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-extanded="false" aria-label="Toggle navigation">
@@ -26,14 +26,14 @@
                     <li class="nav-item dropdown menu">
                         <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Languages</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="padding-left:30px; padding-right:45px">
-                            <li><a href="#" class="dropdown-item">C</a></li>
-                            <li><a href="#" class="dropdown-item">C++</a></li>
-                            <li><a href="#" class="dropdown-item">C#</a></li>
-                            <li><a href="#" class="dropdown-item">Java</a></li>
-                            <li><a href="#" class="dropdown-item">Java Script</a></li>
-                            <li><a href="#" class="dropdown-item">Kotlin</a></li>
-                            <li><a href="#" class="dropdown-item">Python</a></li>
-                            <li><a href="#" class="dropdown-item">Swift</a></li>
+                          <li><a href="languages.html#cLanguage" class="dropdown-item">C</a></li>
+                          <li><a href="languages.html#c++Language" class="dropdown-item">C++</a></li>
+                          <li><a href="languages.html#cSharpLanguage" class="dropdown-item">C#</a></li>
+                          <li><a href="languages.html#javaLanguage" class="dropdown-item">Java</a></li>
+                          <li><a href="languages.html#javaScriptLanguage" class="dropdown-item">Java Script</a></li>
+                          <li><a href="languages.html#kotlinLanguage" class="dropdown-item">Kotlin</a></li>
+                          <li><a href="languages.html#pythonLanguage" class="dropdown-item">Python</a></li>
+                          <li><a href="languages.html#swiftLanguage" class="dropdown-item">Swift</a></li>
                         </ul>
                     </li>
                     <li class="nav-item active menu"><a href="#" class="nav-link">yes</a></li>
@@ -48,13 +48,13 @@
 
     <header>
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" id="Video" controls>
-            <source src="/Images/background.mp4" type="video/mp4">
+            <source src="/Images/Backgrounds/background.mp4" type="video/mp4">
             <source src="movie.ogg" type="video/ogg">
         </video>
         <div class="container h-10">
             <div class="d-flex h-100 text-center align-items-center">
               <div class="w-75 p-3 text-white col rounded-pill"> <!-- style="background-color:#2f179d"> -->
-                    <h1 class="display-1" style="margin-top:15"><strong>Programming Languages</strong></h1>
+                    <h1 class="display-1" style="margin-top:15"><strong>Coding Studios</strong></h1>
                     <p class="lead mb-0" style="font-size:32; margin-top:20"><strong>The future is ours, let's build it together</strong></p>
                 </div>
             </div>
@@ -64,11 +64,19 @@
     <main>
         <section class="container" height="auto">
             <div class="text-center align-items-center">
-                <p class="display-3" style="margin-top:75px; margin-bottom:10px;"><strong>Programming</strong></p>
-                <p class="text-paragraph position">Programming is the process of creating a set of instructions that tell a computer how to perform a task. Programming can be done using a variety of computer programming languages, such as JavaScript, Python, and C++.</p>
-                <p class="text-paragraph position">A programming language is any set of rules that converts strings, or graphical program elements in the case of visual programming languages, to various kinds of machine code output. Programming languages are one kind of computer language, and are used in computer programming to implement algorithms.</p>
+                <p class="display-3" style="margin-top:75px; margin-bottom:10px;">
+                  <strong>Programming</strong>
+                </p>
+                <p class="text-paragraph position">
+                  Programming is the process of creating a set of instructions that tell a computer how to perform a task. Programming can be done using a variety of computer programming languages, such as JavaScript, Python, and C++.
+                </p>
+                <p class="text-paragraph position">
+                  A programming language is any set of rules that converts strings, or graphical program elements in the case of visual programming languages, to various kinds of machine code output. Programming languages are one kind of computer language, and are used in computer programming to implement algorithms.
+                </p>
                 <p class="text-paragraph position" style="font-size:60; margin-left:20;"><strong>700+</strong></p>
-                <p class="text-paragraph" style="margin-top:-30px">Programming languages</p>
+                <p class="text-paragraph" style="margin-top:-30px">
+                  Programming languages
+                </p>
             </div>
         </section>
         
@@ -80,14 +88,18 @@
               <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3">
                 <div class="col">
                   <div class="card shadow-sm">
-                    <img src="/Images/Logos/C.png" width="100%">
+                    <a href="languages.html#cLanguage">
+                      <img src="/Images/Logos/c.png" width="100%">
+                    </a>
       
                     <div class="card-body">
-                      <p class="card-text">C is a general-purpose computer programming language. It was created in the 1970s and remains very widely used and influential.</p>
+                      <p class="card-text">
+                        C is a general-purpose computer programming language. It was created in the 1970s and remains very widely used and influential.
+                      </p>
                       <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
                           <button type="button" class="button" value="0" id="Button0" onclick="like(value)">
-                            <img src="/Images/heartEmpty.png" width="30" height="30" id="image0">
+                            <img src="/Images/Icons/heartEmpty.png" width="30" height="30" id="image0">
                           </button>
                           <p id="likesNumber0" class="heart-text">0</p>
                         </div>
@@ -98,14 +110,18 @@
 
                 <div class="col">
                   <div class="card shadow-sm">
-                    <img src="/Images/Logos/C++.png" width="100%">
+                    <a href="languages.html#c++Language">
+                      <img src="/Images/Logos/c++.png" width="100%">
+                    </a>
       
                     <div class="card-body">
-                      <p class="card-text">C++ is a general-purpose programming language created as an extension of the C programming language, or "C with Classes".</p>
+                      <p class="card-text">
+                        C++ is a general-purpose programming language created as an extension of the C programming language, or "C with Classes".
+                      </p>
                       <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
                           <button type="button" class="button" value="1" id="Button1" onclick="like(value)">
-                            <img src="/Images/heartEmpty.png" width="30" height="30" id="image1">
+                            <img src="/Images/Icons/heartEmpty.png" width="30" height="30" id="image1">
                           </button>
                           <p id="likesNumber1" class="heart-text">0</p>
                         </div>
@@ -116,14 +132,18 @@
 
                 <div class="col">
                     <div class="card shadow-sm">
-                      <img src="/Images/Logos/CSharp.png" width="100%">
+                      <a href="languages.html#cSharpLanguage">
+                        <img src="/Images/Logos/cSharp.png" width="100%">
+                      </a>
         
                       <div class="card-body">
-                        <p class="card-text">C# is a modern, object-oriented, and type-safe programming language which enables developers to build applications that run in .NET.</p>
+                        <p class="card-text">
+                          C# is a modern, object-oriented, and type-safe programming language which enables developers to build applications that run in .NET.
+                        </p>
                         <div class="d-flex justify-content-between align-items-center">
                           <div class="btn-group">
                             <button type="button" class="button" value="2" id="Button2" onclick="like(value)">
-                              <img src="/Images/heartEmpty.png" width="30" height="30" id="image2">
+                              <img src="/Images/Icons/heartEmpty.png" width="30" height="30" id="image2">
                             </button>
                             <p id="likesNumber2" class="heart-text">0</p>
                           </div>
@@ -134,14 +154,18 @@
       
                 <div class="col">
                     <div class="card shadow-sm">
-                      <img src="/Images/Logos/Java2.png" width="100%" height="120%">
+                      <a href="languages.html#javaLanguage">
+                        <img src="/Images/Logos/java.png" width="100%" height="120%">
+                      </a>
         
                       <div class="card-body">
-                        <p class="card-text">Java is a high-level, object-oriented programming language having as few implementation dependencies as possible.</p>
+                        <p class="card-text">
+                          Java is a high-level, object-oriented programming language having as few implementation dependencies as possible.
+                        </p>
                         <div class="d-flex justify-content-between align-items-center">
                           <div class="btn-group">
                             <button type="button" class="button" value="3" id="Button3" onclick="like(value)">
-                              <img src="/Images/heartEmpty.png" width="30" height="30" id="image3">
+                              <img src="/Images/Icons/heartEmpty.png" width="30" height="30" id="image3">
                             </button>
                             <p id="likesNumber3" class="heart-text">0</p>
                           </div>
@@ -152,14 +176,18 @@
 
                 <div class="col">
                     <div class="card shadow-sm">
-                      <img src="/Images/Logos/Java Script.png" width="100%">
+                      <a href="languages.html#javaScriptLanguage">
+                        <img src="/Images/Logos/javaScript.png" width="100%" height="120%">
+                      </a>
         
                       <div class="card-body">
-                        <p class="card-text">JavaScript is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.</p>
+                        <p class="card-text">
+                          JavaScript is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.
+                        </p>
                         <div class="d-flex justify-content-between align-items-center">
                           <div class="btn-group">
                             <button type="button" class="button" value="4" id="Button4" onclick="like(value)">
-                              <img src="/Images/heartEmpty.png" width="30" height="30" id="image4">
+                              <img src="/Images/Icons/heartEmpty.png" width="30" height="30" id="image4">
                             </button>
                             <p id="likesNumber4" class="heart-text">0</p>
                           </div>
@@ -170,14 +198,18 @@
 
                 <div class="col">
                     <div class="card shadow-sm">
-                      <img src="/Images/Logos/Kotlin.png" width="100%">
+                      <a href="languages.html#kotlinLanguage">
+                        <img src="/Images/Logos/kotlin.png" width="100%">
+                      </a>
         
                       <div class="card-body">
-                        <p class="card-text">Kotlin is a modern, cross-platform, statically typed and general-purpose programming language with type inference.</p>
+                        <p class="card-text">
+                          Kotlin is a modern, cross-platform, statically typed and general-purpose programming language with type inference.
+                        </p>
                         <div class="d-flex justify-content-between align-items-center">
                           <div class="btn-group">
                             <button type="button" class="button" value="5" id="Button5" onclick="like(value)">
-                              <img src="/Images/heartEmpty.png" width="30" height="30" id="image5">
+                              <img src="/Images/Icons/heartEmpty.png" width="30" height="30" id="image5">
                             </button>
                             <p id="likesNumber5" class="heart-text">0</p>
                           </div>
@@ -188,14 +220,18 @@
 
                 <div class="col">
                     <div class="card shadow-sm">
-                      <img src="/Images/Logos/Python.png" width="100%">
+                      <a href="languages.html#pythonLanguage">
+                        <img src="/Images/Logos/python.png" width="100%">
+                      </a>
         
                       <div class="card-body">
-                        <p class="card-text">Python is a high-level, general-purpose programming language. It's designed with the intention of being easy to learn and use.</p>
+                        <p class="card-text">
+                          Python is a high-level, general-purpose programming language. It's designed with the intention of being easy to learn and use.
+                        </p>
                         <div class="d-flex justify-content-between align-items-center">
                           <div class="btn-group">
                             <button type="button" class="button" value="6" id="Button6" onclick="like(value)">
-                              <img src="/Images/heartEmpty.png" width="30" height="30" id="image6">
+                              <img src="/Images/Icons/heartEmpty.png" width="30" height="30" id="image6">
                             </button>
                             <p id="likesNumber6" class="heart-text">0</p>
                           </div>
@@ -206,14 +242,18 @@
 
                 <div class="col">
                     <div class="card shadow-sm">
-                      <img src="/Images/Logos/Swift.png" width="100%">
+                      <a href="languages.html#swiftLanguage">
+                        <img src="/Images/Logos/swift.png" width="100%">
+                      </a>
         
                       <div class="card-body">
-                        <p class="card-text">Swift is a general-purpose, multi-paradigm, compiled programming language developed by Apple Inc. and the open-source community.</p>
+                        <p class="card-text">
+                          Swift is a general-purpose, multi-paradigm, compiled programming language developed by Apple Inc. and the open-source community.
+                        </p>
                         <div class="d-flex justify-content-between align-items-center">
                           <div class="btn-group">
                             <button type="button" class="button" value="7" id="Button7" onclick="like(value)">
-                              <img src="/Images/heartEmpty.png" width="30" height="30" id="image7">
+                              <img src="/Images/Icons/heartEmpty.png" width="30" height="30" id="image7">
                             </button>
                             <p id="likesNumber7" class="heart-text">0</p>
                           </div>
