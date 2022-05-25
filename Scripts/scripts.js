@@ -34,15 +34,15 @@ function like(value)
 
     document.getElementById("likesNumber" + value).innerHTML = likesNumber[value];
 
-    if (imageID.src.match("/Images/Icons/heartEmpty.png"))
+    if (imageID.src.match("/MyWebsite/Images/Icons/heartEmpty.png"))
     {
-        imageID.src = "/Images/Icons/heartFilled.png";
+        imageID.src = "/MyWebsite/Images/Icons/heartFilled.png";
         likesNumber[value]++;
         document.getElementById("likesNumber" + value).innerHTML = likesNumber[value];
     }
     else
     {
-        imageID.src = "/Images/Icons/heartEmpty.png";
+        imageID.src = "/MyWebsite/Images/Icons/heartEmpty.png";
         likesNumber[value]--;
         document.getElementById("likesNumber" + value).innerHTML = likesNumber[value];
     }
