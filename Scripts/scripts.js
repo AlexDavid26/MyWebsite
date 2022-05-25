@@ -30,8 +30,6 @@ function like(value)
     image = "image" + value;
     var imageID = document.getElementById(image);
 
-    console.log("lol");
-
     document.getElementById("likesNumber" + value).innerHTML = likesNumber[value];
 
     if (imageID.src.match("/MyWebsite/Images/Icons/heartEmpty.png"))
